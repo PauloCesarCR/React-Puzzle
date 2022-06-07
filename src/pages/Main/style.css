@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: calc(100vw - 224px);
+}
+.container-cards {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 1000px;
+
+  position: absolute;
+  left: 500px;
+   
+}
